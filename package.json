@@ -1,0 +1,36 @@
+{
+    "name": "url",
+    "version": "1.0.0",
+    "description": "A port of 'url' for cortex from node.js, make your node code run in browsers.",
+    "main": "index.js",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:cortexjs/browser-url.git"
+    },
+    "keywords": [
+        "checker",
+        "validator",
+        "validate",
+        "setter"
+    ],
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "author": "kael",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cortexjs/browser-url/issues"
+    },
+    "devDependencies": {
+        "mocha": "~1.13.0",
+        "chai": "~1.8.0"
+    },
+    "cortex": {
+        "dependencies": {
+            "util": "~1.0.0"
+        }
+    }
+}
