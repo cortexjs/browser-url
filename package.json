@@ -30,7 +30,8 @@
     },
     "cortex": {
         "dependencies": {
-            "util": "~1.0.0"
+            "util": "~1.0.0",
+            "querystring": "~1.0.0"
         }
     }
 }
