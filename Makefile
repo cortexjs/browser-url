@@ -1,8 +1,4 @@
-REPORTER = spec
-
 test:
-		@./node_modules/.bin/mocha \
-			--reporter $(REPORTER) \
-			./test/url.js
+	node test/simple/test-url.js
 
 .PHONY: test
